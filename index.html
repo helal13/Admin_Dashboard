@@ -6,7 +6,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Admin Dashboard</title>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <header class="header">
+        <div class="header-main">
+          <div class="search">
+            <label for="search"
+              ><span class="material-symbols-outlined"> search </span></label
+            >
+            <input type="search" name="search" id="search" />
+          </div>
+          <div class="profile">
+            <a class="" href="#"
+              ><span class="material-symbols-outlined">
+                notifications_active
+              </span></a
+            >
+            <img class="profile-img" src="./img/profile.png" alt="" />
+            <h2 class="profile-name">Mohamed Helal</h2>
+          </div>
+        </div>
+
+        <div class="header-buttons">
+          <div class="header-buttons-left">
+            <img class="profile-img" src="" alt="" />
+            <div class="welcome-message">
+              <p class="hi">Hi there,</p>
+              <h2 class="hi-profile-name">Profile Name</h2>
+            </div>
+          </div>
+          <div class="header-buttons-right">
+            <button type="button">New</button>
+            <button type="button">Upload</button>
+            <button type="button">Share</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="sidebar">
+        <div class="logo">
+          <div class="img-logo">
+            <svg style="width: 36px; height: 36px" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
+              />
+            </svg>
+          </div>
+          <div class="text-logo">
+            <h1>Dashboard</h1>
+          </div>
+        </div>
+        <div class="nav">
+          <div class="main-nav">
+            <ul class="main-nav-ul">
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> home </span> Home
+              </li>
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> person </span> Profile
+              </li>
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> chat_bubble </span>
+                Messages
+              </li>
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> history </span> History
+              </li>
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> task_alt </span> Tasks
+              </li>
+              <li class="main-nav-li">
+                <span class="material-symbols-outlined"> forum </span> Community
+              </li>
+            </ul>
+          </div>
+          <div class="settings-nav">
+            <ul class="settings-nav-ul">
+              <li class="settings-nav-li">
+                <span class="material-symbols-outlined"> settings </span>
+                Settings
+              </li>
+              <li class="settings-nav-li">
+                <span class="material-symbols-outlined"> help </span> Support
+              </li>
+              <li class="settings-nav-li">
+                <span class="material-symbols-outlined"> verified_user </span>
+                Privacy
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <h3 class="main-heading">Your Projects</h3>
+        <div class="main-container">
+          <div class="main-container-left">
+            <div class="project-card">
+              <h3 class="project-name">Super Cool Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-name">Less Cool Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-name">Impossible App</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-name">Easy Peasy App</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-name">Ad Blocker</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-name">Money Maker</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eligendi accusamus vitae odio veritatis voluptatibus?
+              </p>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+              <div class="project-card-icon"></div>
+            </div>
+          </div>
+          <div class="main-container-right">
+            <div class="announcment-main">
+              <h3 class="announcment-heading">Announcments</h3>
+              <div class="announcment-card">
+                <div class="announcment-item">
+                  <h3 class="announcment-heading">Community share day</h3>
+                  <small class="announcment-description"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellat ea hic odit numquam perferendis commodi! Repellat
+                    ea hic odit numquam perferendis commodi!</small
+                  >
+                </div>
+                <hr />
+              </div>
+              <div class="announcment-card">
+                <div class="announcment-item">
+                  <h3 class="announcment-heading">Updated privacy policy</h3>
+                  <small class="announcment-description"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellat ea hic odit numquam perferendis commodi! Repellat
+                    ea hic odit numquam perferendis commodi!</small
+                  >
+                </div>
+                <hr />
+              </div>
+              <div class="announcment-card">
+                <div class="announcment-item">
+                  <h3 class="announcment-heading">Site Maintenance</h3>
+                  <small class="announcment-description"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellat ea hic odit numquam perferendis commodi! Repellat
+                    ea hic odit numquam perferendis commodi!</small
+                  >
+                </div>
+                <hr />
+              </div>
+            </div>
+            <div class="trending-main">
+              <div class="trending-card">
+                <div class="trending-item">
+                  <img src="" alt="" class="trending-img" />
+                  <p class="trending-name-mention">@tgen</p>
+                  <p class="trending-name">World Peace Builder</p>
+                </div>
+                <div class="trending-item">
+                  <img src="" alt="" class="trending-img" />
+                  <p class="trending-name-mention">@morgan</p>
+                  <p class="trending-name">Super Cool Project</p>
+                </div>
+                <div class="trending-item">
+                  <img src="" alt="" class="trending-img" />
+                  <p class="trending-name-mention">@kendall</p>
+                  <p class="trending-name">Life Changing App</p>
+                </div>
+                <div class="trending-item">
+                  <img src="" alt="" class="trending-img" />
+                  <p class="trending-name-mention">@alex</p>
+                  <p class="trending-name">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
