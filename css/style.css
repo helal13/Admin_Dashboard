@@ -9,6 +9,27 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+.profile-img {
+  height: 80px;
+  width: 80px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin-right: 15px;
+  background-image: url("https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.small-profile-img {
+  height: 40px;
+  width: 40px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  background-image: url("https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #container {
   display: grid;
   grid-template: 1fr 3fr / 1fr 5fr;
@@ -38,7 +59,8 @@
 .header .search {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 100px;
   width: 50%;
 }
 .header .search input {
@@ -57,16 +79,17 @@
 .header .profile {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
+  justify-content: flex-end;
+  padding-right: 100px;
+  gap: 20px;
   width: 50%;
 }
-.header .profile img {
+.header .profile .small-profile-img {
   width: 8%;
   border-radius: 50px;
 }
 .header .profile span {
-  font-size: 22px;
+  font-size: 30px;
 }
 .header .profile a {
   color: var(--font-color);
@@ -77,8 +100,40 @@
 }
 .header-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+.header-buttons .header-buttons-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+.header-buttons .header-buttons-left .welcome-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.welcome-message p,
+.welcome-message h2 {
+  margin: 0;
+}
+.header-buttons .header-buttons-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+  gap: 30px;
+}
+.header-buttons .header-buttons-right button {
+  padding: 10px 30px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 20px;
 }
 main {
   background-color: var(--third-color);
